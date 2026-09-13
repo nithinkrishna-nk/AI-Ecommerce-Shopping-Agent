@@ -67,16 +67,6 @@ with st.sidebar:
 
     st.divider()
 
-    st.subheader("🔧 Powered By")
-
-    st.write("🤖 Google Gemini")
-    st.write("🔍 ChromaDB")
-    st.write("🧠 Embeddings")
-    st.write("📚 RAG")
-    st.write("🛠️ Tool Calling")
-
-    st.divider()
-
     st.caption("Developed by Nithin Krishna")
 
 
@@ -109,7 +99,7 @@ if not st.session_state.messages:
         st.info("🎧 **Headphones**\n\nFind headphones that match your budget and needs.")
 
     with col3:
-        st.info("🛍️ **Products**\n\nDiscover products using natural language.")
+        st.info("🛍️ **Products**\n\nDiscover any products using any natural language.")
 
 
 # ============================================================
